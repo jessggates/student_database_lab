@@ -32,11 +32,11 @@ while (playAgain == true)
                 needValidFact = false;
                 if (userFactChoice == "hometown")
                 {
-                    Console.WriteLine($"{selectedName} is from {hometown[indexCounter]}");
+                    Console.WriteLine($"{selectedName} is from {hometown[indexCounter]}!");
                 }
                 else if (userFactChoice == "favorite food")
                 {
-                    Console.WriteLine($"{selectedName}'s favorite food is {favoriteFood[indexCounter]}");
+                    Console.WriteLine($"{selectedName}'s favorite food is {favoriteFood[indexCounter]}!");
                 }
             }
             else Console.WriteLine("Please try again! Enter 'hometown' or 'favorite food'");
@@ -52,11 +52,6 @@ while (playAgain == true)
 }
 Console.WriteLine();
 Console.WriteLine("Thanks!");
-
-
-// provide an option where the user can see a list of students
-//allow the user to search by student name
-// category names - allow uppercase and lowercase, allow portion of word such as Food instead of Favorite food
 
 bool ValidateUserNumber(int userNumber)
 {
